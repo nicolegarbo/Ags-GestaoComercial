@@ -1,0 +1,170 @@
+/* HERO */
+
+.hero-contato{
+
+    background:#09072c;
+    color:#fff;
+    padding:80px 0;
+
+}
+
+.hero-contato h1{
+
+    font-weight:700;
+
+}
+
+.hero-contato p{
+
+    color:#ddd;
+    max-width:700px;
+    margin:auto;
+
+}
+
+/* CONTATO */
+
+.contato{
+
+    background:#f8f9fa;
+
+}
+
+.info-item{
+
+    display:flex;
+    gap:20px;
+    align-items:center;
+    margin-bottom:30px;
+
+}
+
+.info-item i{
+
+    width:60px;
+    height:60px;
+
+    background:#b88a3b;
+    color:#fff;
+
+    border-radius:50%;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    font-size:24px;
+
+}
+
+.info-item h5{
+
+    margin-bottom:5px;
+    color:#09072c;
+
+}
+
+.info-item span{
+
+    color:#666;
+
+}
+
+/* FORM */
+
+.form-control{
+
+    padding:14px;
+    border-radius:10px;
+    border:1px solid #ddd;
+
+}
+
+.form-control:focus{
+
+    border-color:#b88a3b;
+    box-shadow:0 0 0 .2rem rgba(184,138,59,.2);
+
+}
+
+.btn-enviar{
+
+    background:#b88a3b;
+    color:#fff;
+    padding:12px 35px;
+    border:none;
+    border-radius:8px;
+    transition:.3s;
+
+}
+
+.btn-enviar:hover{
+
+    background:#09072c;
+    color:#fff;
+
+}
+
+textarea{
+    resize: none;
+}
+
+.info-item div{
+    min-width: 0;
+}
+
+.info-item span{
+    display: block;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+}
+
+/*------------ responsivo -------------*/
+@media (max-width: 768px) {
+    .hero-contato {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .hero-contato h1 {
+        font-size: 2rem;
+    }
+
+    .hero-contato p {
+        font-size: 0.95rem;
+        max-width: 100%;
+    }
+
+    .info-item {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+        margin-bottom: 40px;
+    }
+
+    .info-item i {
+        width: 55px;
+        height: 55px;
+        font-size: 22px;
+    }
+
+    .info-item h5 {
+        font-size: 1.1rem;
+    }
+
+    .info-item span {
+        font-size: 0.95rem;
+    }
+
+    .form-control {
+        padding: 12px;
+        font-size: 0.95rem;
+    }
+
+    .btn-enviar {
+        width: 100%;
+        padding: 14px;
+        font-size: 1rem;
+    }
+
+}

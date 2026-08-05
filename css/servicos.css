@@ -1,0 +1,118 @@
+.hero-servicos {
+    background: #09072c;
+    color: #fff;
+    padding: 80px 0;
+}
+
+.hero-servicos h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-servicos p {
+    max-width: 700px;
+    margin: auto;
+    color: #ddd;
+}
+
+.servicos {
+    padding: 80px 0;
+    background: #f8f9fa;
+}
+
+.servico {
+    display: flex;
+    gap: 35px;
+    padding: 40px;
+    margin-bottom: 35px;
+    background: #fff;
+    border-left: 6px solid #b88a3b;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+}
+
+.icone {
+    min-width: 90px;
+    height: 90px;
+    background: #09072c;
+    color: #b88a3b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+.conteudo h2 {
+    color: #09072c;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.conteudo p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.conteudo ul {
+    padding-left: 20px;
+}
+
+.conteudo li {
+    margin-bottom: 8px;
+}
+
+/*------------ responsivo -------------*/
+@media (max-width: 768px) {
+    .hero-servicos {
+        padding: 60px 20px;
+        text-align: center;
+    }
+
+    .hero-servicos h1 {
+        font-size: 2rem;
+    }
+
+    .hero-servicos p {
+        max-width: 100%;
+        font-size: 0.95rem;
+    }
+
+    .servicos {
+        padding: 60px 15px;
+    }
+
+    .servico {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 25px;
+        padding: 25px 20px;
+        margin-bottom: 25px;
+    }
+
+    .icone {
+        min-width: 70px;
+        width: 70px;
+        height: 70px;
+        font-size: 30px;
+    }
+
+    .conteudo h2 {
+        font-size: 1.5rem;
+    }
+
+    .conteudo p {
+        font-size: 0.95rem;
+    }
+
+    .conteudo ul {
+        text-align: left;
+        padding-left: 18px;
+    }
+
+    .conteudo li {
+        font-size: 0.95rem;
+        margin-bottom: 6px;
+    }
+}

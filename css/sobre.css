@@ -1,0 +1,101 @@
+.py-5 {
+    background-color: #0e0025;
+    color: white;
+}
+
+#hero {
+    background-color: #f7f7f7;
+    color: #0e0025;
+}
+
+.display-5, .lead, .fw-bold {
+    color: #0e0025;
+}
+
+#chamada {
+    color: #b88a3b;
+}
+
+#btn-chamada {
+    padding: 10px;
+    background-color: #b88a3b;
+}
+
+/*------------ responsivo -------------*/
+@media (max-width: 768px) {
+    #hero {
+        padding: 60px 15px !important;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+
+    .row.align-items-center img {
+        margin-bottom: 30px;
+    }
+
+    .row.align-items-center .col-lg-6:last-child {
+        text-align: center;
+    }
+
+    .row.align-items-center h2 {
+        font-size: 1.8rem;
+    }
+
+    .row.align-items-center p {
+        font-size: .95rem;
+    }
+
+    .card {
+        margin-bottom: 15px;
+    }
+
+    .card-body {
+        padding: 25px 20px;
+    }
+
+    .card h4 {
+        font-size: 1.35rem;
+    }
+
+    .card p,
+    .card li {
+        font-size: .95rem;
+    }
+
+    .card ul {
+        padding-left: 20px;
+    }
+
+    #chamada {
+        font-size: 1.8rem;
+    }
+
+    #btn-chamada {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .footer-logo {
+        max-width: 180px;
+    }
+
+    .footer-links {
+        padding-left: 0;
+        list-style: none;
+    }
+
+    .footer p {
+        margin-bottom: 10px;
+    }
+
+}

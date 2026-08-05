@@ -1,0 +1,305 @@
+html,
+body{
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+}
+
+.logo img,
+.logo-link img {
+    max-height: 140px;
+    width: auto;
+}
+
+.logo-link img {
+    transition: .3s;
+}
+
+.logo-link:hover img {
+    transform: scale(1.03);
+    opacity: .9;
+}
+
+.navbar {
+    background: #b7893d !important;
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+    font-weight: 500;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.navbar .nav-link:hover {
+    color: #ececec !important;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.cards {
+    background: #070629;
+    padding: 60px 0;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+}
+
+.card-header {
+    background: #b7893d !important;
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 14px;
+}
+
+.card-body {
+    background: #fff;
+    color: #2d2d2d;
+    text-align: center;
+    padding: 25px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* --- diferencial ---*/
+.diferenciais {
+    background: #0b0a2d;
+    padding: 80px 0;
+}
+
+.diferenciais h2 {
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.diferenciais .subtitulo {
+    color: #c9c9c9;
+    margin-bottom: 60px;
+}
+
+.diferencial-card {
+    background: #14123d;
+    border: none;
+    border-radius: 18px;
+    padding: 35px 30px;
+    text-align: center;
+    color: #fff;
+    transition: .35s;
+    height: 100%;
+    border-top: 4px solid #c3923c;
+}
+
+.diferencial-card:hover {
+    transform: translateY(-8px);
+    background: #1b184d;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .35);
+}
+
+.diferencial-card i {
+    font-size: 48px;
+    color: #c3923c;
+    margin-bottom: 20px;
+}
+
+.diferencial-card h5 {
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.diferencial-card p {
+    color: #d9d9d9;
+    line-height: 1.8;
+}
+
+/*-----footer---------*/
+.footer {
+    background: #09072c;
+    color: #ddd;
+    padding: 60px 0 20px;
+}
+
+.footer-logo {
+    max-width: 180px;
+}
+
+.footer h5 {
+    color: #b88a3b;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.footer p {
+    line-height: 1.8;
+    color: #d6d6d6;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    margin-bottom: 12px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ddd;
+    transition: .3s;
+}
+
+.footer-links a:hover {
+    color: #b88a3b;
+    padding-left: 6px;
+}
+
+.footer i {
+    margin-right: 8px;
+}
+
+.footer hr {
+    border-color: rgba(255, 255, 255, .15);
+    margin: 40px 0 20px;
+}
+
+.copyright {
+    color: #bdbdbd;
+    font-size: 14px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+}
+
+.navbar {
+    transition: .3s;
+}
+
+.navbar-scroll {
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: .8s;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/*------------ responsivo --------------*/
+@media (max-width: 768px){
+
+    .logo-link img{
+        max-height: 90px;
+    }
+
+    .navbar-nav{
+        text-align:center;
+        padding:10px 0;
+    }
+
+    .navbar .nav-link{
+        padding:12px 0;
+        font-size:17px;
+    }
+
+    .banner img{
+        width:100%;
+        height:auto;
+    }
+
+    .cards{
+        padding:50px 15px;
+    }
+
+    .card{
+        margin-bottom:20px;
+    }
+
+    .card-header{
+        font-size:17px;
+    }
+
+    .card-body{
+        padding:20px;
+        font-size:15px;
+    }
+
+    .diferenciais{
+        padding:60px 15px;
+    }
+
+    .diferenciais h2{
+        font-size:2rem;
+    }
+
+    .diferenciais .subtitulo{
+        margin-bottom:40px;
+        font-size:.95rem;
+    }
+
+    .diferencial-card{
+        padding:25px 20px;
+        margin-bottom:20px;
+    }
+
+    .diferencial-card i{
+        font-size:40px;
+    }
+
+    .diferencial-card h5{
+        font-size:1.25rem;
+    }
+
+    .diferencial-card p{
+        font-size:.95rem;
+    }
+
+    .footer{
+        text-align:center;
+        padding:50px 20px 20px;
+    }
+
+    .footer-logo{
+        max-width:150px;
+        margin-bottom:20px;
+    }
+
+    .footer-links{
+        padding:0;
+    }
+
+    .footer-links a:hover{
+        padding-left:0;
+    }
+
+    .footer p{
+        font-size:.95rem;
+    }
+
+    .copyright{
+        font-size:13px;
+    }
+
+}
